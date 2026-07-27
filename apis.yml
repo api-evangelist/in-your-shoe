@@ -1,7 +1,25 @@
 aid: in-your-shoe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/in-your-shoe.png
 name: In Your Shoe
-description: In Your Shoe is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: In Your Shoe is an Egyptian streetwear and apparel brand, founded in 2018
+  and based in Cairo, Egypt, that designs and sells playful, statement-driven ready-to-wear
+  pieces — oversized and boxy tees, shirts, jeans, jorts, loungewear, kids' lines, and
+  accessories — letting Millennials and Gen-Z express themselves through high-quality,
+  self-expressive fashion. The company sells direct-to-consumer through a Shopify storefront
+  and is backed by 500 Global and the Misk 500 MENA Accelerator. It publishes no first-party
+  developer API, SDK, or documentation surface; this profile captures its identity and public
+  web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/in-your-shoe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-note: Direct-to-consumer Shopify apparel storefront; no first-party developer
+  API, SDK, or documentation. Probed 2026-07-19 — no /.well-known/security.txt, no OpenAPI.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Apparel
+- Streetwear
+- Fashion
+- E-commerce
+- Retail
+- Direct-to-Consumer
+- Consumer Goods
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://inyourshoe.com
+- type: About
+  url: https://inyourshoe.com/pages/about-us
+- type: Blog
+  url: https://inyourshoe.com/blogs/news
+- type: TermsOfService
+  url: https://inyourshoe.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://inyourshoe.com/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
