@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/in-your-shoe/integrations
+- https://n8n.io/integrations/in-your-shoe/
+- https://composio.dev/toolkits/in-your-shoe
+- https://monid.ai/tools/in-your-shoe
+checked:
+- https://composio.dev/toolkits/in-your-shoe
+- https://monid.ai/tools/in-your-shoe
+- https://n8n.io/integrations/in-your-shoe/
+- https://zapier.com/apps/in-your-shoe/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
